@@ -10,3 +10,4 @@ while contadorTermos <= progressao:
     termo = primeiro_termo + (contadorTermos - 1) * razao  # Fórmula do termo geral da PA.
     print(f"Termo {contadorTermos}: {termo}")
     contadorTermos += 1
+print('FIM!')
