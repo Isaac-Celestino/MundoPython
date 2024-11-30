@@ -1,4 +1,4 @@
-from itertools import count
+# Crie uma tupla preenchida com os 20 primeiros colocados da Tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre:
 
 times = ("Botafogo", "Palmeiras", "Internacional", "Fortaleza", "Flamengo",
     "São Paulo", "Cruzeiro", "Bahia", "Corinthians", "Atlético-MG",

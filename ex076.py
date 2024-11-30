@@ -1,4 +1,5 @@
-# Tupla contendo pares de (nome, preço)
+# Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência. No final, mostre uma listagem de preços, organizando os dados em forma tabular.
+
 itens = (
     ("Pao", 1),
     ("Borracha", 2.00),

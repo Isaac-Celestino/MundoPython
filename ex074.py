@@ -1,14 +1,10 @@
-import random
+# Crie um programa que vai gerar cinco números aleatórios e colocar em uma tupla. Depois disso, mostre a listagem de números gerados e também indique o menor e o maior valor que estão na tupla.
 
-num1 = random.randint(0, 10)
-num2 = random.randint(0, 10)
-num3 = random.randint(0, 10)
-num4 = random.randint(0, 10)
-num5 = random.randint(0, 10)
+from random import randint
 
-lista = (num1, num2, num3, num4, num5)
+tupla = (randint(1,10), randint(1,10), randint(1,10), randint(1,10), randint(1,10))
 
-print(f"Os numeros sortedos foram: {lista}")
+print(f"Os numeros sortedos foram: {tupla}")
 
-print("O menor valor sorteado foi:", min(lista))
-print("O maior valor sorteado foi:", max(lista))
+print("O menor valor sorteado foi:", min(tupla))
+print("O maior valor sorteado foi:", max(tupla))

@@ -1,20 +1,17 @@
-tupla = ()
-contnove = 0
-numpar = 0
+# Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre:
 
-while len(tupla) < 5:
-    num = int(input("Digite um valor:"))
-    tupla = tupla + (num,)
+num = (int(input("Digite um número: ")),
+       int(input("Digite um número: ")),
+       int(input("Digite um número: ")),
+       int(input("Digite um número: ")))
 
-    if num == 9:
-        contnove = contnove + 1
-    elif num % 2 == 0:
-        numpar = numpar + 1
-
-print(f"Voce digitou os valores: {tupla}")
-print(f"O numero 9 apareceu {contnove} vezes!")
-if 3 not in tupla:
-    print("O valor 3 nao foi digitado em nenhuma posicao.")
+print(f"Voce digitou os valores {num}")
+print(f"O valor 9 apareceu {num.count(9)} vezes")
+if 3 in num:
+       print(f"O valor 3 apareceu na {num.index(3)} posicao")
 else:
-    print(f"O numero 3 apareceu na {(tupla.index(3) + 1)}ª posicao ")
-print(f"Foram digitados {numpar} numeros pares")
+       print("O valor 3 nao foi digitado em nenhuma posicao")
+print(f"Os valores pares digitados foram ", end=" ")
+for n in num:
+       if n % 2 == 0:
+              print(n, end=" ")
