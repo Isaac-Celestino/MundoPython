@@ -1,4 +1,4 @@
-    #62) Melhore o Desafio 61, perguntando para o usuário se ele quer mostrar mais alguns termos. O programa encerra quando ele disser que quer mostrar 0 termos.
+#62) Melhore o Desafio 61, perguntando para o usuário se ele quer mostrar mais alguns termos. O programa encerra quando ele disser que quer mostrar 0 termos.
 
 
 '''resp = str(input("Deseja calcular alguma PA: [S/N]")).upper()
