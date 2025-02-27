@@ -6,4 +6,4 @@ def ler_frase(*frases):
         print(linha)
         print()
 
-ler_frase("Python é incrível!", "Automatizando tarefas", "Criando scripts eficientes")
+ler_frase("Gustavo Guanabara", "Curso de python no youtube", "Cev")
